@@ -4,7 +4,11 @@ wurfl.js
 wurfl.js is a node.js library to make it easy to use wurfl. What is wurfl? From the site http://wurfl.sourceforge.net/:
 
 ```
-WURFL is a Device Description Repository (DDR), i.e. a software component which contains the descriptions of thousands of mobile devices. In its simplest incarnation, WURFL is an XML configuration file plus a set of programming APIs to access the data in real-time environments.
+WURFL is a Device Description Repository (DDR), i.e. a software
+component which contains the descriptions of thousands of mobile
+devices. In its simplest incarnation, WURFL is an XML
+configuration file plus a set of programming APIs to access the
+data in real-time environments.
 ```
 
 Usage
