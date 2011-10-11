@@ -1,9 +1,9 @@
 {
 	"name": "wurfl",
 	"author": "Jacob Wright <jacwright@gmail.com> (jacwright.com)",
-	"version": "0.1.0",
-	"main": "./lib/wurfl"
-	"description": "NodeJS library for loading Wireless Universal Resource File (wurfl) xml file efficiently into memory for use in applications that need to lookup mobile device capabilities by their user agent."
+	"version": "0.2.0",
+	"main": "./lib/wurfl",
+	"description": "NodeJS library for loading Wireless Universal Resource File (wurfl) xml file efficiently into memory for use in applications that need to lookup mobile device capabilities by their user agent.",
 	"scripts": {
 		"test": "node test/test.js"
 	},
@@ -11,7 +11,7 @@
 		"node-expat": "1.4.0",
 		"webworker": "0.8.4"
 	},
-	"homepage": "https://github.com/touchads/node-wurfl-api"
+	"homepage": "https://github.com/touchads/node-wurfl-api",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/touchads/node-wurfl-api.git"

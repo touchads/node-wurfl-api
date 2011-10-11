@@ -75,6 +75,20 @@ wurfl.watch(myWurflFile, function() {
 });
 ```
 
+If you want to reduce memory usage even further, you can specify the the groups you are interested in, the rest will be left out completely. For example, if you only care about the "display" capabilities:
+
+```javascript
+wurfl.loadSync({ groups: [ 'display' ] });
+```
+
+When specifying groups the "file" parameter needs to be an options hash with `groups` and optionally `file`. You can use this in loadSync(options), load(options, callback), and watch(options, callback).
+
+```javascript
+var options = { file: __dirname + '/wurfl.xml', groups: [ 'display' ] };
+wurfl.loadSync(options);
+wurfl.watch(options);
+```
+
 The most common use-case is to load the file up when your script starts synchronously since you need it to exist before you start querying against it, but then add a watch to asynchronously update it later:
 
 ```javascript
