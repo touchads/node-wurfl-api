@@ -8,8 +8,8 @@
 		"test": "node test/test.js"
 	},
 	"dependencies": {
-		"node-expat": "1.4.0",
-		"webworker": "0.8.4"
+		"node-expat": "1.4.1",
+		"backgrounder": "0.2.7"
 	},
 	"homepage": "https://github.com/touchads/node-wurfl-api",
 	"repository": {
