@@ -35,7 +35,7 @@ wurfl.loadSync();
 
 var userAgent = 'Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; O2 Xda 2s;PPC;240x320; PPC; 240x320)';
 var deviceInfo = wurfl.get(userAgent);
-console.log(deviceInfo.model_name); // "Xda IIs"
+console.log(deviceInfo.product_info.model_name); // "Xda IIs"
 ```
 
 You may want to use your own (read "updated") wurfl.xml file. This is easy:
