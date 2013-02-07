@@ -1,7 +1,7 @@
 {
 	"name": "wurfl",
 	"author": "Jacob Wright <jacwright@gmail.com> (jacwright.com)",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"main": "./lib/wurfl",
 	"description": "NodeJS library for loading Wireless Universal Resource File (wurfl) xml file efficiently into memory for use in applications that need to lookup mobile device capabilities by their user agent.",
 	"scripts": {
