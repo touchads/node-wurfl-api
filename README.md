@@ -11,6 +11,11 @@ configuration file plus a set of programming APIs to access the
 data in real-time environments.
 ```
 
+Note
+----
+This project is missing logic from other WURFL APIs. Any contributions to bring it in line with what can be found at  http://www.scientiamobile.com/wurflCloud/gettingStarted/ would be greatly appreciated.
+
+
 Usage
 -----
 
