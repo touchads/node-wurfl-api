@@ -1,7 +1,7 @@
-wurfl.js
-========
+node-wurfl-api
+==============
 
-wurfl.js is a node.js library to make it easy to use wurfl. What is wurfl? From the site http://wurfl.sourceforge.net/:
+node-wurfl-api is a node.js library to make it easy to use wurfl. What is wurfl? From the site http://wurfl.sourceforge.net/:
 
 ```
 WURFL is a Device Description Repository (DDR), i.e. a software
