@@ -1,3 +1,5 @@
+[DEPRECATED] This code is no longer maintained. Feel free to fork it and/or use it to build a proper library that uses Scientia's APIs.
+
 node-wurfl-api
 ==============
 
