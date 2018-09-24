@@ -82,7 +82,7 @@ wurfl.watch(myWurflFile, function() {
 });
 ```
 
-If you want to reduce memory usage even further, you can specify the the groups you are interested in, the rest will be left out completely. For example, if you only care about the "display" capabilities:
+If you want to reduce memory usage even further, you can specify the groups you are interested in, the rest will be left out completely. For example, if you only care about the "display" capabilities:
 
 ```javascript
 wurfl.loadSync({ groups: [ 'display' ] });
